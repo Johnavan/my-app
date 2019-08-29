@@ -9,13 +9,14 @@ body {
 
 .summary{
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 44px;
   font-weight: 600;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.5px;
   margin-top: 10px;
   margin-left: 100px;
+  margin-right: 100px;
   text-align: left;
 }
 a {
@@ -44,9 +45,3 @@ a:hover {
     margin-right: 20px; 
 }
 
-
-
-
-.links{
-  margin-left: 100px;
-}

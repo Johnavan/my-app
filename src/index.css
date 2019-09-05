@@ -15,9 +15,23 @@ body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: 0.5px;
   margin-top: 10px;
+  text-align: left;
   margin-left: 100px;
   margin-right: 100px;
+  align-self: stretch
+}
+
+.name{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 45px;
+  line-height: 44px;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
   text-align: left;
+  margin-left: 100px;
+  align-self: stretch;
 }
 a {
   color: #88B04B;
@@ -45,3 +59,9 @@ a:hover {
     margin-right: 20px; 
 }
 
+.links
+{
+  text-align: left;
+  margin-left: 100px;
+  align-self: stretch;
+}

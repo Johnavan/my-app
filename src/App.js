@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p class= "summary">
-        Hello, my name is Johnavan Thomas.
-        Currently in my 4th year of Computer Science at Carleton University.
+        <p class= "name">
+        Hey, my name is Johnavan Thomas.
+        </p>
+        <p class ="summary">
+        I'm currently in my 4th year of Computer Science at Carleton University.
         When I'm not in class, I'm a Product Designer at <a href="https://www.fullscript.com">Fullscript</a>. 
         </p>
 

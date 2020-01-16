@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        
         <p class= "name">
         Hey, my name is Johnavan Thomas.
         </p>
@@ -16,15 +18,28 @@ function App() {
         <p class="links">
             <a class="social" href="mailto:johnavanthomas@gmail.com">Email</a>
             <a class="social" href="https://github.com/Johnavan">Github</a>
-            <a class="social" target="_blank" href="https://www.instagram.com/jvannthomas/">Instagram</a>
-            <a class="social" target="_blank" href="https://www.linkedin.com/in/johnavan-thomas-017b6a112/">Linkedin</a>
+            <a class="social" target="_blank" href="https://www.instagram.com/jvannthomas/" rel="noopener noreferrer">Instagram</a>
+            <a class="social" target="_blank" href="https://www.linkedin.com/in/johnavan-thomas-017b6a112/" rel="noopener noreferrer">Linkedin</a>
           </p>
     
 
         
 
       </header>
+
+  {/* <div className="footer">
+
+        <p className ="footerText">
+        Made with <span role="img" aria-label="love">❤️</span> by Johnavan Thomas 
+        </p>
+
+
+
+  </div> */}
+      
     </div>
+
+
   );
 }
 
